@@ -88,7 +88,6 @@ ul {
   display: flex;
   align-items: center;
 
-
 }
 
 .nav {
@@ -124,7 +123,6 @@ span.accent {
 
 .nav-list {
   display: flex;
-
 }
 
 .nav-list .item:not(:last-child) {
@@ -181,8 +179,10 @@ span.accent {
     justify-content: center;
   color: #757575;
 
-outline: 2px solid red;
-  outline-offset: -2px;
+}
+.contakt-auth:hover,
+.contakt-auth:focus{
+  color: var(--acctent-color);
 }
 .auth-item{
   display: flex;
