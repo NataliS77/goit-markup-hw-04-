@@ -137,7 +137,7 @@ span.accent {
 
 }
 
-.auth-list .item+.item {
+.auth-list .item +.item {
   margin-left: 50px;
 }
 
@@ -172,6 +172,26 @@ span.accent {
   font-size: 14px;
   line-height: 1.14;
 }
+.contakt-auth{
+  display:flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+  color: #757575;
+
+outline: 2px solid red;
+  outline-offset: -2px;
+}
+.auth-item{
+  display: flex;
+  
+}
+.auth-icon{
+  fill: currentColor;
+}
+
 
 .mail-auth:hover,
 .mail-auth:focus {
@@ -185,7 +205,8 @@ span.accent {
 
 .tel-auth {
   display: block;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--main-text-color);
 
   font-weight: 500;
@@ -575,10 +596,6 @@ background-color: rgba(255, 255, 255, 0.1);
   border: none;
 
 }
-.item-btn{
-  
- 
-}
 
 .btn:hover,
 .btn:focus {
@@ -760,4 +777,4 @@ text-align: center;
   fill:currentColor;
 }
 /* outline: 2px solid red;
- outline-offset: -2px;*/
+outline-offset: -2px;*/
