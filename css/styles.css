@@ -161,7 +161,10 @@ span.accent {
 }
 
 .mail-auth {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--main-text-color);
@@ -178,33 +181,29 @@ span.accent {
     align-items: center;
     justify-content: center;
   color: #757575;
-
 }
 .contakt-auth:hover,
 .contakt-auth:focus{
   color: var(--acctent-color);
 }
-.auth-item{
-  display: flex;
-  
-}
+
 .auth-icon{
   fill: currentColor;
 }
-
-
 .mail-auth:hover,
 .mail-auth:focus {
   text-decoration: none;
-  color: var(--main-text-color);
+  color: var(--acctent-color);
 }
-
 .actual {
   color: var(--acctent-color);
 }
 
 .tel-auth {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--main-text-color);
@@ -216,7 +215,7 @@ span.accent {
 
 .tel-auth:hover,
 .tel-auth:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--acctent-color);
 }
 
@@ -359,6 +358,7 @@ span.accent {
 .team-section {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;
   text-align: center;
 }
 
@@ -492,10 +492,11 @@ span.footer-accent {
 .footet-container{
   display: flex;
   align-items: baseline;
-}
-.socials-footer{
-  margin-left: 70px;
   
+}
+
+.socials-footer{
+ margin-left: 70px;
 
 }
 .socials-list{
@@ -578,6 +579,7 @@ background-color: rgba(255, 255, 255, 0.1);
 .all-btn:focus,
 .all-btn:active {
   background-color: var(--acctent-color);
+  
 }
 
 .btn {
@@ -600,7 +602,8 @@ background-color: rgba(255, 255, 255, 0.1);
 .btn:hover,
 .btn:focus {
   background-color: var(--acctent-color);
-  background: #FFFFFF;
+  color: #ffffff;
+
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -720,7 +723,6 @@ background: #FFFFFF;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    padding: 25px 100px;
     border-radius: 4px;
     background-color: #F5F4FA; 
 
@@ -737,7 +739,6 @@ text-align: center;
   display: inline-block;
 }
 .company-title{
-
   margin: auto ;
   margin-bottom: 50px;
   font-weight: 700;
@@ -750,7 +751,6 @@ text-align: center;
     align-items: center;
     justify-content: center;
     gap: 30px;
-
 }
 .company-link{
   display: flex;
@@ -759,19 +759,17 @@ text-align: center;
     justify-content: center;
     width: 170px;
     height: 92px;
-
-    padding: 16px 32px;
-    border: 1px solid #AFB1B8;
+   border: 1px solid #AFB1B8;
     border-radius: 4px;
 
     color: #AFB1B8;
-    background-color: #E5E5E5;
+  
   
 }
 .company-link:hover,
 .company-link:focus{
-  color: #2196f3;
-  
+  color: var(--acctent-color);
+  border-color: var(--acctent-color);
 }
 .company-icon{
   fill:currentColor;
